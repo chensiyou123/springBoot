@@ -9,7 +9,7 @@ import java.util.Map;
 
 @RestController
 public class UserController {
-  @GetMapping("/")
+  @GetMapping("/users")
     public Map userList(){
         Map map = new HashMap();
         map.put("userId","12312");
